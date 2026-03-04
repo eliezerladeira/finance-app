@@ -1,0 +1,16 @@
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\bin\Debug\net8.0\FinanceApp.Application.deps.json
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\bin\Debug\net8.0\FinanceApp.Application.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\bin\Debug\net8.0\FinanceApp.Application.pdb
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\bin\Debug\net8.0\FinanceApp.Domain.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\bin\Debug\net8.0\FinanceApp.Domain.pdb
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.csproj.AssemblyReference.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.AssemblyInfoInputs.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.AssemblyInfo.cs
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.csproj.CoreCompileInputs.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.sourcelink.json
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceA.A82E5256.Up2Date
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\refint\FinanceApp.Application.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\FinanceApp.Application.pdb
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Application\obj\Debug\net8.0\ref\FinanceApp.Application.dll

@@ -1,0 +1,12 @@
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\bin\Debug\net8.0\FinanceApp.Domain.deps.json
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\bin\Debug\net8.0\FinanceApp.Domain.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\bin\Debug\net8.0\FinanceApp.Domain.pdb
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.AssemblyInfoInputs.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.AssemblyInfo.cs
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.csproj.CoreCompileInputs.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.sourcelink.json
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\refint\FinanceApp.Domain.dll
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\FinanceApp.Domain.pdb
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.Domain\obj\Debug\net8.0\ref\FinanceApp.Domain.dll

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Zo7AqZ+bU08=",
+  "dgSpecHash": "hs0gLf3xFbU=",
   "success": true,
   "projectFilePath": "D:\\eliezerladeira@yahoo.com.br\\OneDrive\\Projetos\\dev\\finance-app\\backend\\FinanceApp\\FinanceApp.Application\\FinanceApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
