@@ -9,6 +9,29 @@ using FinanceApp.Domain.ValueObjects;
 
 namespace FinanceApp.Application.Services
 {
+    /*
+     * O que faz?
+     * Cria usuário
+     * Busca por email
+     * Garante que não exista duplicado
+     * 
+     * ✔ Application depende apenas de interface
+     * ✔ Domain continua isolado
+     * ✔ UI futuramente chamará apenas Application
+     * ✔ Nenhuma dependência de banco ainda
+     * 
+     * ✔ Email só pode ser criado via Create()
+     * ✔ Validação está centralizada no Value Object
+     * ✔ Application respeita o domínio
+     * ✔ Nenhum acesso indevido ao construtor
+     * ✔ Nome correto da propriedade (Address)
+     * 🏗 Arquitetura saudável
+     * Value Object controla criação
+     * Entidade recebe objeto válido
+     * Application apenas orquestra
+     * Isso é Clean Architecture + DDD na prática.
+    */
+
     public class UserService
     {
         private readonly IUserRepository _userRepository;

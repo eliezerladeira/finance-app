@@ -3,6 +3,30 @@ using System.Text.RegularExpressions;
 
 namespace FinanceApp.Domain.ValueObjects
 {
+    /*
+     * O que é um Value Object?
+     * Diferente de Entity:
+     * Entity tem identidade (Id)
+     * Value Object é definido apenas por seus valores
+     * É imutável
+     * Não tem Id
+     * Não pode existir em estado inválido
+     * 👉 Email é perfeito para virar Value Object.
+     * Porque:
+     * Tem regras próprias
+     * Tem validação específica
+     * Deve ser sempre válido
+     * Não faz sentido existir um Email inválido
+     * 
+     * O que foi feito aqui?
+     * ✔ Classe sealed (não pode herdar)
+     * ✔ Construtor privado
+     * ✔ Método de criação controlado
+     * ✔ Imutável
+     * ✔ Implementa igualdade por valor
+     * ✔ Nunca existe Email inválido
+    */
+
     public sealed class Email : IEquatable<Email>
     {
         // classe sealed não pode herdar (Value Object)

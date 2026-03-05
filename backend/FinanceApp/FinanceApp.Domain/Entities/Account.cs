@@ -3,6 +3,25 @@ using FinanceApp.Domain.Enums;
 
 namespace FinanceApp.Domain.Entities
 {
+    /*
+     * ✔ Id gerado internamente
+     * ✔ UserId obrigatório
+     * ✔ Saldo inicial permitido negativo
+     * ✔ Validação no construtor
+     * ✔ Estado protegido
+     * ✔ Sem dependência de banco
+     * 
+     * 🔒 Encapsulamento
+     * Nenhuma propriedade pode ser alterada diretamente.
+     * 🧠 Comportamento
+     * Saldo só muda via:
+     * Deposit
+     * Withdraw
+     * 🏗 Regra de domínio
+     * A conta não pode nascer sem:
+     * UserId válido
+     * Nome válido
+    */
     public class Account
     {
         public Guid Id { get; private set; }

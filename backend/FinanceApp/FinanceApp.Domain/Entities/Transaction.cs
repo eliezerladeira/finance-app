@@ -7,6 +7,10 @@ using FinanceApp.Domain.Enums;
 
 namespace FinanceApp.Domain.Entities
 {
+    /*
+     * O dinheiro pertence às movimentações, não mais à Account.
+    */
+
     public class Transaction
     {
         public Guid Id { get; private set; }
