@@ -34,5 +34,21 @@ namespace FinanceApp.Infrastructure.Repositories
 
             return connection.Query<Purchase>(sql, new { invoiceId });
         }
+
+        public decimal GetTotalOpenPurchasesByCard(Guid creditCardId)
+        {
+            // método retorna total de compras ainda não pagas
+            using var connection = _connectionFactory.CreateConnection();
+
+            var sql = @"
+                SELECT COALESCE(SUM(p.amount),0)
+                FROM purchases p
+                JOIN invoices i ON p.invoice_id = i.id
+                WHERE i.credit_card_id = @creditCardId
+                AND i.is_paid = 0
+            ";
+
+            return connection.ExecuteScalar<decimal>(sql, new { creditCardId });
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace FinanceApp.Domain.Entities
         public int DueDay { get; private set; }
         public Guid UserId { get; private set; }
         public DateTime CreatedAt { get; private set; }
+        private CreditCard() { }
 
         public CreditCard(string name, decimal limit, int closingDay, int dueDay, Guid userId)
         {

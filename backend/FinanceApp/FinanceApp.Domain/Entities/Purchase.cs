@@ -10,13 +10,22 @@ namespace FinanceApp.Domain.Entities
         public string Description { get; private set; }
         public decimal Amount { get; private set; }
         public DateTime PurchaseDate { get; private set; }
+        public int InstallmentNumber { get; private set; }
+        public int TotalInstallments { get; private set; }
+        public Guid? PurchaseGroupId { get; private set; }
+        public Guid? SupplierId { get; private set; }
+
+        private Purchase() { }
 
         public Purchase(
             Guid creditCardId,
             Guid invoiceId,
             string description,
             decimal amount,
-            DateTime purchaseDate)
+            DateTime purchaseDate,
+            int installmentNumber,
+            int totalInstallments,
+            Guid? PurchaseGroupId)
         {
             if (string.IsNullOrWhiteSpace(description))
                 throw new ArgumentException("Descrição inválida.");
@@ -30,6 +39,50 @@ namespace FinanceApp.Domain.Entities
             Description = description;
             Amount = amount;
             PurchaseDate = purchaseDate;
+            InstallmentNumber = installmentNumber;
+            TotalInstallments = totalInstallments;
+            PurchaseGroupId = PurchaseGroupId;
+        }
+
+        // compra simples
+        public static Purchase CreateSingle(
+            Guid creditCardId,
+            Guid invoiceId,
+            string description,
+            decimal amount,
+            DateTime purchaseDate)
+        {
+            return new Purchase(
+                creditCardId,
+                invoiceId,
+                description,
+                amount,
+                purchaseDate,
+                1,
+                1,
+                null);
+        }
+
+        // compra parcelada
+        public static Purchase CreateInstallment(
+            Guid creditCardId,
+            Guid invoiceId,
+            string description,
+            decimal amount,
+            DateTime purchaseDate,
+            int installmentNumber,
+            int totalInstallments,
+            Guid? parentPurchaseId)
+        {
+            return new Purchase(
+                creditCardId,
+                invoiceId,
+                description,
+                amount,
+                purchaseDate,
+                installmentNumber,
+                totalInstallments,
+                parentPurchaseId);
         }
     }
 }

@@ -17,18 +17,33 @@ namespace FinanceApp.Api.Controllers
         [HttpPost]
         public IActionResult Create(
             Guid creditCardId,
-            Guid invoiceId,
             string description,
             decimal amount)
         {
             var purchaseId = _purchaseService.CreatePurchase(
                 creditCardId,
-                invoiceId,
                 description,
                 amount,
                 DateTime.UtcNow);
 
             return Ok(new { purchaseId });
+        }
+
+        [HttpPost("installments")]
+        public IActionResult CreateInstallments(
+            Guid creditCardId,
+            string description,
+            decimal totalAmount,
+            int installments)
+        {
+            _purchaseService.CreateInstallmentPurchase(
+                creditCardId,
+                description,
+                totalAmount,
+                installments,
+                DateTime.UtcNow);
+
+            return Ok("Compra parcelada registrada.");
         }
     }
 }

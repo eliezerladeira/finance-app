@@ -6,5 +6,6 @@ namespace FinanceApp.Domain.Repositories
     {
         void Create(Purchase purchase);
         IEnumerable<Purchase> GetByInvoice(Guid invoiceId);
+        decimal GetTotalOpenPurchasesByCard(Guid creditCardId);
     }
 }

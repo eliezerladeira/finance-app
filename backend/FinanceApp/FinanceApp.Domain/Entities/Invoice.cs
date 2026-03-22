@@ -10,6 +10,7 @@ namespace FinanceApp.Domain.Entities
         public int Year { get; private set; }
         public decimal TotalAmount { get; private set; }
         public bool IsPaid { get; private set; }
+        private Invoice() { }
 
         public Invoice(Guid creditCardId, int month, int year)
         {
@@ -24,6 +25,11 @@ namespace FinanceApp.Domain.Entities
         public void AddPurchase(decimal amount)
         {
             TotalAmount += amount;
+        }
+
+        public void RemovePurchase(decimal amount)
+        {
+            TotalAmount -= amount;
         }
 
         public void MarkAsPaid()

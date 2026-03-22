@@ -31,7 +31,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FinanceApp.Api.Controllers.CreditCardsController",
+    "ContainingType": "FinanceApp.Api.Controllers.CreditCardController",
     "Method": "Create",
     "RelativePath": "api/creditcards",
     "HttpMethod": "POST",
@@ -64,6 +64,105 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Api.Controllers.CreditCardController",
+    "Method": "GetAvailableLimit",
+    "RelativePath": "api/creditcards/{id}/available-limit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Api.Controllers.PurchasesController",
+    "Method": "Create",
+    "RelativePath": "api/purchases",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creditCardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Api.Controllers.PurchasesController",
+    "Method": "CreateInstallments",
+    "RelativePath": "api/purchases/installments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creditCardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalAmount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "installments",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Api.Controllers.SuppliersController",
+    "Method": "Create",
+    "RelativePath": "api/suppliers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Api.Controllers.SuppliersController",
+    "Method": "GetAll",
+    "RelativePath": "api/suppliers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

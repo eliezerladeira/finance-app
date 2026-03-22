@@ -1,0 +1,10 @@
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.csproj.AssemblyReference.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.FrmFatura.resources
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.Forms.MainForm.resources
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.Forms.SuppliersForm.resources
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.csproj.GenerateResource.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.AssemblyInfoInputs.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.AssemblyInfo.cs
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.csproj.CoreCompileInputs.cache
+D:\eliezerladeira@yahoo.com.br\OneDrive\Projetos\dev\finance-app\backend\FinanceApp\FinanceApp.UI\obj\Debug\net8.0-windows\FinanceApp.UI.sourcelink.json
